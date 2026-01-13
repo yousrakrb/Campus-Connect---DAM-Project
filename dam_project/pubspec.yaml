@@ -1,0 +1,30 @@
+name: dam_project
+description: "Campus Connect - Student Utility App"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  http: ^1.2.0
+ 
+  flutter_riverpod: ^2.6.1
+
+  google_fonts: ^6.1.0  # Optional, for better typography
+  
+  # For icons
+material_design_icons_flutter: ^7.0.7296
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  
